@@ -1,0 +1,29 @@
+div{
+  /*Asignandole el tipo de letra */
+  font-family: "Times New Roman";
+ /*Llamanos a la propiedad box-sizing, para que todos nuestros box sean del mismo tamaño*/
+  box-sizing: border-box;
+  /*Asignando al atributo width el valor de 200px */
+  width: 200px;
+  /*Asignando al atributo height el valor de 150px */
+  height: 150px;
+  /*Asignando al atributo margin el valor de 12px */
+  margin: 12px;
+  /*Asignando al atributo padding el valor de 10px para que el texto no este al borde*/
+  padding: 10px;
+  /*Asignando al atributo display el valor de block para que lo tome como un bloque */
+  display: block;
+}
+.yellow{
+    /* Asignandole color amarillo al fondo */
+    background: 	#FFFF00;
+}
+/*llamando a selector de clase .black*/
+.black{
+    /* Asignandole color negro al fondo */
+    background: #000000;
+    /*poniendo color blanco a las letras*/
+    color: white;
+
+
+}
